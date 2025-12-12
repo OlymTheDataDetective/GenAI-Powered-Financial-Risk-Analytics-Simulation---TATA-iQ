@@ -104,16 +104,20 @@ Based on model insights and customer risk segmentation, an AI-enabled collection
 ---
 
 ## 📁 Project Structure
-── README.md
-├── data/ 
-│   └── raw_dataset.xlsx             
-├── eda/        
-│   ├── eda_summary.docx             # Written EDA report from simulation
-│   └── eda_summary.xlsx             # Excel file used for exploratory analysis
+├── README.md
+│
+├── data/
+│   └── raw_dataset.xlsx                # Original dataset provided for analysis
+│
+├── eda/
+│   ├── eda_summary.docx                # Written EDA report from the simulation
+│   └── eda_summary.xlsx                # Excel file used for data cleaning and EDA
+│
 ├── model/
-│   ├── logistic_regression.ipynb    # Notebook containing model logic + evaluation metrics
-│   └── model_summary.docx           # Word report explaining the model design
----
+│   ├── logistic_regression.ipynb       # Jupyter Notebook with model logic & evaluation
+│   └── model_summary.docx              # Written summary explaining model approach
+
+
 
 ## 👤 Author
 **Olympia Devi Gurumayum**  
